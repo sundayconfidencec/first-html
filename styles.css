@@ -1,0 +1,53 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.headertext {
+	width: 100%;
+	height: inherit;
+	background-color: white;
+	padding: 10px;
+	text-align: center;
+	color: black;
+	margin: 0px;
+
+}
+h1 {
+	color: red;
+}
+	img {
+		width: 100%;
+	}
+	#secondsection {
+		width: 100%;
+		height: inherit;
+		background-color: gray;
+		padding: 20px;
+		margin: 0px;
+	}
+	.subhead1 {
+		margin 20px auto;
+		text-align: center;
+	}
+	#thirdsection {
+		text-align: center;
+		background-color: ghostwhite;
+	}
+	.myimages{
+		display: flex;
+	}
+	.myimages img {
+		width: 30%;
+		margin: 10px 20px;
+	}
+	@media only screen and (max-width: 600px) {
+	.myimages{
+		display: block;
+	}
+	.myimages img {
+		width: 30%;
+		margin: 10px 0px;
+	}
+}
